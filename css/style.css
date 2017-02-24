@@ -16,6 +16,11 @@ header {
 
 }
 
+.responsive-image-cover {
+  height: auto;
+  width: 100%;
+}
+
 
 ul {
         list-style-type: none;
