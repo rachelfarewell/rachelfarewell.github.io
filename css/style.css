@@ -72,6 +72,9 @@ ul {
         right: 175px;
         font-size: 19px;
         display: inline-block;
+        max-width: 100%;
+        height: auto !important;
+        display: block !important;
     }
 
 
