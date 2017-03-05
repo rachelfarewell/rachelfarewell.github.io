@@ -71,6 +71,7 @@ ul {
         position: relative;
         right: 175px;
         font-size: 19px;
+        display: inline-block;
     }
 
 
