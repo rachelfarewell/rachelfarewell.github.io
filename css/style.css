@@ -19,8 +19,9 @@ header {
 .responsive-image-cover {
   height: auto;
   width: 100%;
-  max-width: 100%
-  height: auto;
+  max-width: 100%;
+  height: auto !important;
+  display: block !important;
 }
 
 
