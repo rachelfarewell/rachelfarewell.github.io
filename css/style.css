@@ -276,6 +276,6 @@ padding-top: 10px;
 img {
   max-width: 100%;
   height: auto;
-  background: #000;
+  background: transparent;
 }
 
