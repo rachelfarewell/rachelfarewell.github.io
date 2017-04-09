@@ -257,25 +257,3 @@ padding-top: 10px;
 }
 
 
-#wrapper {
-  max-width: 1050px;
-  margin: 60px auto 60px auto;
-  background-color: #DDD
-}
-#outer {
-  display: table;
-  width: 100%;
-  table-layout: fixed;
-}
-.itemwrapper {
-  display: table-cell;
-  vertical-align: top;
-  width: 100%;
-  padding: 0px 30px 0px 30px;
-}
-img {
-  max-width: 100%;
-  height: auto;
-  background-color: #000;
-}
-
