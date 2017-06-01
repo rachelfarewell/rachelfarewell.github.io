@@ -299,11 +299,9 @@ div.background-img {
 }
 div.nav {
     position: fixed;
-    background: rgba(255, 255, 255, 0.7);
     top: 0;
     left: 0;
     right:0;
-    padding: 16px;
 }
 
 
