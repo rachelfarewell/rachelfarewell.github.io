@@ -247,6 +247,9 @@ padding-top: 10px;
 }
 
 /* new homepage css */
+
+backgroud: url('img/newhomempage.jpg')
+
 .nav-wrapper{
     display: relative;
     margin: 10px;
