@@ -228,8 +228,6 @@ padding-top: 10px;
     margin-bottom: -10px;
 }
 
-
-
 .button {
     background-color: #EDCB98; 
     border:2px solid #EDCB98;
@@ -242,8 +240,6 @@ padding-top: 10px;
     font-size: 18px;
     margin-bottom: 50px;
     font-family: 'Amatic SC', cursive; 
-
-  
 }
 
 .copyright{
@@ -251,55 +247,47 @@ padding-top: 10px;
 }
 
 /* new homepage css */
-
-
-Hi I am trying to place a simple horizontal navigation bar so as that it floats on top (in the bottom left corner to be precise) of a header. The header is an image of a simple color gradient and is inside of a div. The code for the nav bar is placed inside of this in another div, but always appears beneath the header. Here is the html:
-
-<div>
-    <img id="Header" src="images/header.jpg"/>
-    <div>   
-        <ul id="nav">
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Our Products</a></li>
-            <li><a href="#">FAQs</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">Login</a></li>
-        </ul>
-    </div>
-</div>  
-<img id="Decal" src="images/decal.png"/>
-And the relavent CSS:
+.nav-wrapper{
+    display: relative;
+    margin: 10px;
+}
 
 #Header {
-height:205px;
-width: 100%;
-z-index:1;
-}
+    height:205px;
+    width: 100%;
+    z-index:1;
+    }
 
 #Decal {
-position: absolute;
-z-index: 2;
-right: 5px;
-top: 1px;
-}
+    position: absolute;
+    z-index: 2;
+    }
+
 #nav {
-width: 100%;
-float: left;
-margin: 0 0 3em 0;
-padding: 0;
-list-style: none;
-background-color: #f2f2f2;
-border-bottom: 1px solid #ccc; 
-border-top: 1px solid #ccc; }
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    margin: 0px;
+    padding: 0;
+    list-style: none;
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #ccc; 
+    border-top: 1px solid #ccc; 
+    }
+
 #nav li {
-float: left; }
+    float: left; 
+    }
 #nav li a {
-display: block;
-padding: 8px 15px;
-text-decoration: none;
-font-weight: bold;
-color: #069;
-border-right: 1px solid #ccc; }
+    display: block;
+    padding: 8px 15px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #069;
+    border-right: 1px solid #ccc; 
+    }
+
 #nav li a:hover {
-color: #c00;
-background-color: #fff; }
+    color: #c00;
+    background-color: #fff; 
+}
