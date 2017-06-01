@@ -286,6 +286,26 @@ padding-top: 10px;
     background-color: transparent;
 }
 
+div.background-img {
+    background-image: url('newhomepage.jpg');
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-size:cover;
+}
+div.nav {
+    position: fixed;
+    background: rgba(255, 255, 255, 0.7);
+    top: 0;
+    left: 0;
+    right:0;
+    padding: 16px;
+}
+
 
 
 
