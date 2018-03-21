@@ -17,17 +17,6 @@
  
 }
 
-body {
-
-            background:url('img/wallpaper.jpg') no-repeat center center;
-            background-size:cover;  
-
-            /* Workaround for some mobile browsers */
-            min-height:100%;    
-            padding-top: 20px;
-            padding-bottom: 20px;
-        }    
-
 ul {
         list-style-type: none;
         padding: 0;
