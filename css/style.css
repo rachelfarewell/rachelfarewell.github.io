@@ -17,6 +17,16 @@
  
 }
 
+body {
+
+            background:url('img/wallpaper.jpg') no-repeat center center;
+            background-size:cover;  
+
+            /* Workaround for some mobile browsers */
+            min-height:100%;    
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }    
 
 ul {
         list-style-type: none;
@@ -246,33 +256,4 @@ padding-top: 10px;
         font-family: 'Montserrat', sans-serif;
 }
 
-/* new homepage css */
-
-html{
-
-            /* Ensure the html element always takes up the full height of the browser window */
-            min-height:100%;
-
-              /* This image will be displayed fullscreen */
-            background:url('img/newhomepage.jpg') no-repeat center center;
-
-            /* The Magic */
-            background-size:cover;
-        }
-
-body {
-
-            background:url('img/wallpaper.jpg') no-repeat center center;
-            background-size:cover;  
-
-            /* Workaround for some mobile browsers */
-            min-height:100%;    
-            padding-top: 20px;
-            padding-bottom: 20px;
-        }    
-
-        .navbar {
-            margin-top: 0px;
-            margin-bottom: 0px;
-        }
 
